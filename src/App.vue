@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <img width="25%" src="./assets/logo.png" />
+    <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Hello Vue in CodeSandbox!" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
   name: "App",
@@ -18,7 +18,7 @@ export default {
 
 <style>
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
